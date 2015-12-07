@@ -13,6 +13,7 @@
 		8701ED1D1C152BCC00FF05A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8701ED1B1C152BCC00FF05A1 /* Main.storyboard */; };
 		8701ED1F1C152BCC00FF05A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8701ED1E1C152BCC00FF05A1 /* Assets.xcassets */; };
 		8701ED221C152BCC00FF05A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8701ED201C152BCC00FF05A1 /* LaunchScreen.storyboard */; };
+		8701ED2B1C152BF400FF05A1 /* ToolObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 8701ED2A1C152BF400FF05A1 /* ToolObj.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		8701ED1E1C152BCC00FF05A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8701ED211C152BCC00FF05A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8701ED231C152BCC00FF05A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8701ED291C152BF400FF05A1 /* ToolObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolObj.h; sourceTree = "<group>"; };
+		8701ED2A1C152BF400FF05A1 /* ToolObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolObj.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				8701ED161C152BCC00FF05A1 /* AppDelegate.m */,
 				8701ED181C152BCC00FF05A1 /* ViewController.h */,
 				8701ED191C152BCC00FF05A1 /* ViewController.m */,
+				8701ED291C152BF400FF05A1 /* ToolObj.h */,
+				8701ED2A1C152BF400FF05A1 /* ToolObj.m */,
 				8701ED1B1C152BCC00FF05A1 /* Main.storyboard */,
 				8701ED1E1C152BCC00FF05A1 /* Assets.xcassets */,
 				8701ED201C152BCC00FF05A1 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8701ED1A1C152BCC00FF05A1 /* ViewController.m in Sources */,
+				8701ED2B1C152BF400FF05A1 /* ToolObj.m in Sources */,
 				8701ED171C152BCC00FF05A1 /* AppDelegate.m in Sources */,
 				8701ED141C152BCC00FF05A1 /* main.m in Sources */,
 			);
